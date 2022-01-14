@@ -1,16 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
-    public float timeRemaining = 50;
+    public float timeValue = 50;
+    public Text timerText;
 
+    //Update is called once per frame
     void Update()
     {
-        if (timeRemaining > 0)
+        if (timeValue > 0)
         {
-            timeRemaining -= Time.deltaTime;
+            timeValue -= Time.deltaTime;
+        }
+        else
+        {
+            timeValue = 0;
         }
     }
 }
