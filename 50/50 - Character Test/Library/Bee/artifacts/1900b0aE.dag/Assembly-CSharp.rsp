@@ -369,6 +369,7 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
 "Assets/Timercount.cs"
 "Assets/Timercounter.cs"
+"Assets/timertest.cs"
 -langversion:8.0
 
 /deterministic
