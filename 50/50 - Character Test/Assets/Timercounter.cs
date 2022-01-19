@@ -19,6 +19,8 @@ public class Timercounter : MonoBehaviour
         {
             timeValue = 0;
         }
+
+        DisplayTime(timeValue);
     }
 
     void DisplayTime(float timeToDisplay)
