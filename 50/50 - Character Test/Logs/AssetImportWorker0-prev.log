@@ -1,0 +1,78 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.0b11 (ddf8e7a924bd) revision 14547175'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 22000.434; Version 2009; 64bit' Language: 'it' Physical Memory: 16173 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\UNIty\2021.1.0b11\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/documenti NABA/Anno III/Primo semestre/Game  Design II/Documenti/50---Game-Design-II/50/50 - Character Test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63083
+Successfully changed project path to: D:/documenti NABA/Anno III/Primo semestre/Game  Design II/Documenti/50---Game-Design-II/50/50 - Character Test
+D:/documenti NABA/Anno III/Primo semestre/Game  Design II/Documenti/50---Game-Design-II/50/50 - Character Test
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 85.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.0b11 (ddf8e7a924bd)
+[Subsystems] Discovering subsystems at path D:/UNIty/2021.1.0b11/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/documenti NABA/Anno III/Primo semestre/Game  Design II/Documenti/50---Game-Design-II/50/50 - Character Test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e9b)
+    Vendor:   Intel
+    VRAM:     8086 MB
+    Driver:   30.0.101.1191
+Initialize mono
+Mono path[0] = 'D:/UNIty/2021.1.0b11/Editor/Data/Managed'
+Mono path[1] = 'D:/UNIty/2021.1.0b11/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/UNIty/2021.1.0b11/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UNIty/2021.1.0b11/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/UNIty/2021.1.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004472 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 111.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.775 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006185 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.230 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3283 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.7 MB.
+System memory in use after: 128.9 MB.
+
+Unloading 124 unused Assets to reduce memory usage. Loaded Objects now: 3722.
+Total: 3.309200 ms (FindLiveObjects: 0.287700 ms CreateObjectMapping: 0.166400 ms MarkObjects: 2.543300 ms  DeleteObjects: 0.311000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/50 Test.unity
+  artifactKey: Guid(a784854b9807b4f499ac3f48588b4d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/50 Test.unity using Guid(a784854b9807b4f499ac3f48588b4d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7d372df82cdf06dbabb8972f037407') in 0.009238 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
