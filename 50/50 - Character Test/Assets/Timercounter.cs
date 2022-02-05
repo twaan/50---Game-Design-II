@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Timercounter : MonoBehaviour
 {
-    public float timeValue=300;
+    public float timeValue = 300;
     public Text countdownText;
 
     // Update is called once per frame
@@ -35,4 +35,6 @@ public class Timercounter : MonoBehaviour
 
         countdownText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
+
+
 }
