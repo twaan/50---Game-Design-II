@@ -15,11 +15,11 @@ D:/documenti NABA/Anno III/Primo semestre/Game  Design II/Documenti/50---Game-De
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63655
+52177
 Successfully changed project path to: D:/documenti NABA/Anno III/Primo semestre/Game  Design II/Documenti/50---Game-Design-II/50/50 - Character Test
 D:/documenti NABA/Anno III/Primo semestre/Game  Design II/Documenti/50---Game-Design-II/50/50 - Character Test
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 87.95 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 87.09 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0b11 (ddf8e7a924bd)
 [Subsystems] Discovering subsystems at path D:/UNIty/2021.1.0b11/Editor/Data/Resources/UnitySubsystems
@@ -35,614 +35,56 @@ Initialize mono
 Mono path[0] = 'D:/UNIty/2021.1.0b11/Editor/Data/Managed'
 Mono path[1] = 'D:/UNIty/2021.1.0b11/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/UNIty/2021.1.0b11/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UNIty/2021.1.0b11/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/UNIty/2021.1.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004372 seconds.
+Registered in 0.004846 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 107.28 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 110.86 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.756 seconds
+- Completed reload, in  4.850 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006062 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.256 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3284 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.0 MB.
-System memory in use after: 129.2 MB.
-
-Unloading 124 unused Assets to reduce memory usage. Loaded Objects now: 3723.
-Total: 3.791300 ms (FindLiveObjects: 0.320400 ms CreateObjectMapping: 0.284200 ms MarkObjects: 2.521300 ms  DeleteObjects: 0.663900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Glass_MS.tga
-  artifactKey: Guid(96617d2bf993e484a9b17f0b2ea726d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Glass_MS.tga using Guid(96617d2bf993e484a9b17f0b2ea726d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25dfd5c8c5c3c4f8df09a23e8614fc1c') in 0.091196 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Body_N.tga
-  artifactKey: Guid(2df14879ee657db4690da53f7f8ede74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Body_N.tga using Guid(2df14879ee657db4690da53f7f8ede74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466f649b1d30ad941e82a0dce6b0ae08') in 0.056016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Body_A.tga
-  artifactKey: Guid(8fb502b12a93adb429d2a8e0fee1ddbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Body_A.tga using Guid(8fb502b12a93adb429d2a8e0fee1ddbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ebec9a4382e9f2edc077a55ec1fbc65') in 0.016220 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000906 seconds.
-  path: Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Glass_E.tga
-  artifactKey: Guid(35b4635041b5ef448a515ea5b2d005da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Glass_E.tga using Guid(35b4635041b5ef448a515ea5b2d005da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691e6d3da7a3ca4a1fbdf92abba2ab98') in 0.019464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Glass_AO.tga
-  artifactKey: Guid(e3eca76242ff54f4d88133b056af3929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Glass_AO.tga using Guid(e3eca76242ff54f4d88133b056af3929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af8b3999bb008b078f72c4bdfec1e45') in 0.029694 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Door_AO.tga
-  artifactKey: Guid(ba716eb35ad4d544d86768e006716cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Door_AO.tga using Guid(ba716eb35ad4d544d86768e006716cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c894a7c075c6170bc0c652fdd141d45') in 0.024430 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Door_A.tga
-  artifactKey: Guid(0b6e745caa4f55345b09ddc6837fbe8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Door_A.tga using Guid(0b6e745caa4f55345b09ddc6837fbe8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f502ad542290ca85c3d644fcb4c735') in 0.024411 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Body_E.tga
-  artifactKey: Guid(c9a3fdf60b0c2aa4a9fd7f2d1dad2796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Body_E.tga using Guid(c9a3fdf60b0c2aa4a9fd7f2d1dad2796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2e2bdb611ed7fe729c3dd45994fc5b') in 0.025258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Interior_A.tga
-  artifactKey: Guid(f9082194e56b2f94f990a33d195c14e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Interior_A.tga using Guid(f9082194e56b2f94f990a33d195c14e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee36e353fdeea6db74d6ca543a1fd1d') in 0.029252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Door_E.tga
-  artifactKey: Guid(2696f8bc49da57a4d8c46206a62ceadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Door_E.tga using Guid(2696f8bc49da57a4d8c46206a62ceadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e4a82c533cc8e9c8a096c411d79d98') in 0.022895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Glass_N.tga
-  artifactKey: Guid(3f17cce8e7041884a8bb1980415ac004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Glass_N.tga using Guid(3f17cce8e7041884a8bb1980415ac004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315be51d6696765c5a161427989b57b9') in 0.029624 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Glass_A.tga
-  artifactKey: Guid(6e838dbee7b03fd40b87ad91c9e93e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Glass_A.tga using Guid(6e838dbee7b03fd40b87ad91c9e93e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c44f4c3b471e6632b8944986214a4ce') in 0.025067 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Interior_N.tga
-  artifactKey: Guid(36a5112e9ec9ee64492551841ec01d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Interior_N.tga using Guid(36a5112e9ec9ee64492551841ec01d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487578be1bd18cd24a2db749092f7a1d') in 0.027703 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Body_AO.tga
-  artifactKey: Guid(77c8677d2e98edf4f997c58f65e72ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Body_AO.tga using Guid(77c8677d2e98edf4f997c58f65e72ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0694d69fadd5be0d7c8376bbf093c413') in 0.015890 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000482 seconds.
-  path: Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Door_N.tga
-  artifactKey: Guid(2778aafb732a0be4ab213286691488de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Door_N.tga using Guid(2778aafb732a0be4ab213286691488de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde0c4d6456e3eb7ec8e87e286806fe6') in 0.019102 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Interior_AO.tga
-  artifactKey: Guid(39d49ef300470b746b364e3e5b5b9240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Interior_AO.tga using Guid(39d49ef300470b746b364e3e5b5b9240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45732cf3d03e8831f883356e774c1050') in 0.021877 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000551 seconds.
-  path: Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Interior_E.tga
-  artifactKey: Guid(d256b45e24df8614f85a001a443d0fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Interior_E.tga using Guid(d256b45e24df8614f85a001a443d0fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c8c590dde7ed86a592de640ac8d4e2') in 0.019780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Body_MS.tga
-  artifactKey: Guid(206b3d5595172484bac792e8955c0299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Body_MS.tga using Guid(206b3d5595172484bac792e8955c0299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8423a9876f68b6ccbc621b2737c1bc') in 0.022309 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Interior_MS.tga
-  artifactKey: Guid(023aaef8d69703e40bb01dd0b6c68975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Interior_MS.tga using Guid(023aaef8d69703e40bb01dd0b6c68975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7394fc04e123cefb30cc34f509397899') in 0.027591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Door_MS.tga
-  artifactKey: Guid(d82b24af91f8d1844aed0cac53b89802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Textures/Cyberpunk_Car_Door_MS.tga using Guid(d82b24af91f8d1844aed0cac53b89802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30649f28e20de04945b8ca0cdecd739') in 0.021663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1323.209969 seconds.
-  path: Assets/Modular Pipes Asset/Source/Pipe1/Materials/No Name.mat
-  artifactKey: Guid(b4cc69db4518a1d4891822dcd040043e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular Pipes Asset/Source/Pipe1/Materials/No Name.mat using Guid(b4cc69db4518a1d4891822dcd040043e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b60bc544b478773c80e0fb06e2a88c') in 0.124789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Modular Pipes Asset/Source/ExtraLargePipe1/Materials/No Name.mat
-  artifactKey: Guid(7b49befbf482d7245b1c5a36ea3cdefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular Pipes Asset/Source/ExtraLargePipe1/Materials/No Name.mat using Guid(7b49befbf482d7245b1c5a36ea3cdefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c44ca023370524787126db981a712c8') in 0.054900 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Components/Materials/Pannel.mat
-  artifactKey: Guid(fac2e4232fe77d142940016fd3e7a189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Components/Materials/Pannel.mat using Guid(fac2e4232fe77d142940016fd3e7a189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6eb25698483fced82df13da3571567') in 0.015157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Modular Pipes Asset/Source/ExtraLargePipe2/Materials/No Name.mat
-  artifactKey: Guid(09f16b740d01b2a48bbfd8843a395b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular Pipes Asset/Source/ExtraLargePipe2/Materials/No Name.mat using Guid(09f16b740d01b2a48bbfd8843a395b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8e7d7b03f2b9f112253618f96dcae5') in 0.049653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Modular Pipes Asset/Source/FoldedPipe/Materials/No Name.mat
-  artifactKey: Guid(3d8bbc89aea0b004fbd8ef0174e9460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular Pipes Asset/Source/FoldedPipe/Materials/No Name.mat using Guid(3d8bbc89aea0b004fbd8ef0174e9460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598f2b9fb60b45359181ed3501dc0e5d') in 0.050613 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/Modular Pipes Asset/Source/LargePipe2/Materials/No Name.mat
-  artifactKey: Guid(363bd19f00bb43e4884485e5b5c30d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular Pipes Asset/Source/LargePipe2/Materials/No Name.mat using Guid(363bd19f00bb43e4884485e5b5c30d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219f84feb4a74bf4b73010de6c091d63') in 0.049758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Components/Materials/Pipes.mat
-  artifactKey: Guid(436676f7b14b3434894ffcb7dbc96482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Components/Materials/Pipes.mat using Guid(436676f7b14b3434894ffcb7dbc96482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89408f12bee1f73de536d77b7b0a96bd') in 0.017085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Modular Pipes Asset/Source/MediumPipe1/Materials/No Name.mat
-  artifactKey: Guid(2dec2982d6776404a9e64eed1dc5b8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular Pipes Asset/Source/MediumPipe1/Materials/No Name.mat using Guid(2dec2982d6776404a9e64eed1dc5b8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00df84a6f3b573c37b70bcd62d39d3bc') in 0.085588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.270381 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/Metallic.mat
-  artifactKey: Guid(e3ca45ad49b34ff4cb0116840b321e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/Metallic.mat using Guid(e3ca45ad49b34ff4cb0116840b321e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624fa8bb3efe04e1e26aed4694135293') in 0.012184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/Modular Pipes Asset/Source/LargePipe1/Materials/No Name.mat
-  artifactKey: Guid(564b9ebafdca9f44e8b9dd2ab0ec45c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular Pipes Asset/Source/LargePipe1/Materials/No Name.mat using Guid(564b9ebafdca9f44e8b9dd2ab0ec45c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2db262d8066b573a5e6f4097c17aa2b') in 0.071646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.062067 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_26.mat
-  artifactKey: Guid(d114cde0600508c4f9eed72b935654e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_26.mat using Guid(d114cde0600508c4f9eed72b935654e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596fd0b62daa31b573c4a07dd16bbde7') in 0.027468 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_30.mat
-  artifactKey: Guid(a6d73f9e47bd28d438e0eaa89328614f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_30.mat using Guid(a6d73f9e47bd28d438e0eaa89328614f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76b97f2e15772689457cb4d74c2f4c2') in 0.061363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.315316 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
-  artifactKey: Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat using Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6133fac251a7dec03a2d2ab025973aae') in 0.027726 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071558b3b0f953024b677e3670d63945') in 0.060107 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
-  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3ad2e940a32d73c08e9445bf9ea74f') in 0.058568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e194b2b43d01191a866b720e6fe3fe3') in 0.061156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/Components/Materials/ground material.mat
-  artifactKey: Guid(3e63fa7baca7c844f9d3b45b742fe6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Components/Materials/ground material.mat using Guid(3e63fa7baca7c844f9d3b45b742fe6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc79884777a6b614c6852400de67c39b') in 0.052679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
-  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242fe96948ff72ba72dcd3770d85c941') in 0.143191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Components/Materials/Cloak Upgrade.mat
-  artifactKey: Guid(7fccf8ca83e86474583cba724c1a656a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Components/Materials/Cloak Upgrade.mat using Guid(7fccf8ca83e86474583cba724c1a656a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7eabfb3c64a9be58251c9a07bbee4f4') in 0.013195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Components/Materials/Glass.mat
-  artifactKey: Guid(1328110fd16adc241b6e1bd514fa3a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Components/Materials/Glass.mat using Guid(1328110fd16adc241b6e1bd514fa3a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65faeb1aad91e570c201772b25d3c11') in 0.034306 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Cyberpunk Car/Models/Materials/Cyberpunk_Car_Body.mat
-  artifactKey: Guid(7a174332889895049a898ea93eb0bb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Models/Materials/Cyberpunk_Car_Body.mat using Guid(7a174332889895049a898ea93eb0bb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f822180437dcf8146e780fd2c0f639f') in 0.022793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
-  artifactKey: Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat using Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d68300eb8169bc264889e716a7bfac') in 0.249204 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Modular Pipes Asset/Source/BrickMaterial.mat
-  artifactKey: Guid(8c2aabeefcb12a942969edf4778da969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular Pipes Asset/Source/BrickMaterial.mat using Guid(8c2aabeefcb12a942969edf4778da969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39ff2ca922b8a4994b89c2418ff3585') in 0.136366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Components/Footage/Materials/black background.mat
-  artifactKey: Guid(ab0d38ac35012a1479519afb4b844fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Components/Footage/Materials/black background.mat using Guid(ab0d38ac35012a1479519afb4b844fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65d052ad03d0caaa07b83ee003f02d9') in 0.011098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Cyberpunk Car/Models/Materials/Cyberpunk_Car_Glass_01.mat
-  artifactKey: Guid(4a400ba5151dee34e8fb848bd29a0cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Models/Materials/Cyberpunk_Car_Glass_01.mat using Guid(4a400ba5151dee34e8fb848bd29a0cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168b0de71b7351048d3ba7336f9f1023') in 0.052548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Cyberpunk Car/Models/Materials/Cyberpunk_Car_Glass_02.mat
-  artifactKey: Guid(f4882f226d2cd9f4288701fe37633f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Models/Materials/Cyberpunk_Car_Glass_02.mat using Guid(f4882f226d2cd9f4288701fe37633f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96bc0cee5126c3f91af239ae2aa5792') in 0.057425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Cyberpunk Car/Models/Materials/Cyberpunk_Car_Interior.mat
-  artifactKey: Guid(739bd935c75042240b8423d0dd659aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Models/Materials/Cyberpunk_Car_Interior.mat using Guid(739bd935c75042240b8423d0dd659aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22be13e8f654f37618de80862ce2eb1c') in 0.060208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000451 seconds.
-  path: Assets/SlashAssetStash/SciFiCrateLowPolyFree[URP]/Materials/Crate.mat
-  artifactKey: Guid(ffcca3be586446b418a36138bced6906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SlashAssetStash/SciFiCrateLowPolyFree[URP]/Materials/Crate.mat using Guid(ffcca3be586446b418a36138bced6906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c45804065d64fff5bab7d387b78d39') in 0.103245 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
-  artifactKey: Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat using Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527259da848bf94fb51667e3d9d3dfc7') in 0.012581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Components/Materials/50 skin.mat
-  artifactKey: Guid(73ce0a88610f1724e92c22c978a65be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Components/Materials/50 skin.mat using Guid(73ce0a88610f1724e92c22c978a65be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c3c9cc4b75f4e6139fc2f6b4955cdd') in 0.013232 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Cyberpunk Car/Models/Materials/Cyberpunk_Car_Door.mat
-  artifactKey: Guid(84de3e0389299b24192fd4c1b229454e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Models/Materials/Cyberpunk_Car_Door.mat using Guid(84de3e0389299b24192fd4c1b229454e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fbea8a93d120b8c55bde9a6f71681a') in 0.040952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Components/Materials/Blocks.mat
-  artifactKey: Guid(2e19d49b4fa249642bb02397bea70299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Components/Materials/Blocks.mat using Guid(2e19d49b4fa249642bb02397bea70299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c8eaaaf1058203859dc6f0a3839d09') in 0.011555 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
-  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98026ff287ceb237bc7ed41f3b25767e') in 0.041007 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007368 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs:569)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.137 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3247 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 215.8 MB.
-System memory in use after: 216.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4070.
-Total: 2.477900 ms (FindLiveObjects: 0.225900 ms CreateObjectMapping: 0.111900 ms MarkObjects: 2.039800 ms  DeleteObjects: 0.099300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006261 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs:569)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.057 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3226 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 215.1 MB.
-System memory in use after: 215.3 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4073.
-Total: 3.603300 ms (FindLiveObjects: 0.413400 ms CreateObjectMapping: 0.244000 ms MarkObjects: 2.803200 ms  DeleteObjects: 0.141800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005979 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs:569)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.130 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3226 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 215.2 MB.
-System memory in use after: 215.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4076.
-Total: 2.976400 ms (FindLiveObjects: 0.277100 ms CreateObjectMapping: 0.170800 ms MarkObjects: 2.425700 ms  DeleteObjects: 0.102000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005904 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs:569)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.037 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3226 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 215.2 MB.
-System memory in use after: 215.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4079.
-Total: 2.631900 ms (FindLiveObjects: 0.235700 ms CreateObjectMapping: 0.112400 ms MarkObjects: 2.186300 ms  DeleteObjects: 0.096800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1731.915795 seconds.
-  path: Assets/SciFi_Door/Prefabs
-  artifactKey: Guid(2206fe4384a1c3e49ba05c5a72f68eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi_Door/Prefabs using Guid(2206fe4384a1c3e49ba05c5a72f68eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9b2e9be59136acc861c897b4c50ec9') in 0.008607 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 433.692967 seconds.
-  path: Assets/Standard Assets
-  artifactKey: Guid(b4c2c94cad58e1840877fdcb2f5944ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets using Guid(b4c2c94cad58e1840877fdcb2f5944ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee4e49d2c380dce4507f0f754f82efe') in 0.003214 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.952886 seconds.
-  path: Assets/Standard Assets/Characters
-  artifactKey: Guid(4f3c0e2b9b328e74f976ab059e959952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Characters using Guid(4f3c0e2b9b328e74f976ab059e959952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0823b1e00fe311251da49c1710b1f67f') in 0.003074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.867371 seconds.
-  path: Assets/Standard Assets/Characters/FirstPersonCharacter
-  artifactKey: Guid(b1bc04f3e87b23b4798b5212510202bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Characters/FirstPersonCharacter using Guid(b1bc04f3e87b23b4798b5212510202bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ea9de93f171dd766030e0a21522fc6') in 0.003240 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.608892 seconds.
-  path: Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts
-  artifactKey: Guid(20cfb61782c41b245a86f68f9bb5b2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts using Guid(20cfb61782c41b245a86f68f9bb5b2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55a15caedc5a9c4ec27210e5aabd3e6') in 0.003414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.933244 seconds.
-  path: Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs
-  artifactKey: Guid(05ec5cf00ca181d45a42ba1870e148c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs using Guid(05ec5cf00ca181d45a42ba1870e148c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302319fcce2aeae8440d70daf25e7a68') in 0.011388 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 45.035419 seconds.
-  path: Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs
-  artifactKey: Guid(05ec5cf00ca181d45a42ba1870e148c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs using Guid(05ec5cf00ca181d45a42ba1870e148c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7ff54c0c0a8f7ab8e2b469fa87274a') in 0.002482 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005946 seconds.
+Registered in 0.006969 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs:569)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
-
 Mono: successfully reloaded assembly
-- Completed reload, in  1.105 seconds
+- Completed reload, in  1.266 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3226 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 215.3 MB.
-System memory in use after: 215.5 MB.
+Unloading 3285 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.6 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4082.
-Total: 2.790400 ms (FindLiveObjects: 0.251900 ms CreateObjectMapping: 0.141700 ms MarkObjects: 2.296500 ms  DeleteObjects: 0.099600 ms)
+Unloading 124 unused Assets to reduce memory usage. Loaded Objects now: 3726.
+Total: 2.731100 ms (FindLiveObjects: 0.239700 ms CreateObjectMapping: 0.155400 ms MarkObjects: 2.061800 ms  DeleteObjects: 0.273100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 97.869350 seconds.
-  path: Assets/Components/50 - Idle.controller
-  artifactKey: Guid(4326ef5f01780bd4f8ec906bb4df9d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Components/50 - Idle.controller using Guid(4326ef5f01780bd4f8ec906bb4df9d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e63100a9645073f0dc132fb879268e') in 0.018267 seconds 
+  path: Assets/Components/Level Design/skylineee.jpg
+  artifactKey: Guid(fb4d87e10427d6548923965c80f0304c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Components/Level Design/skylineee.jpg using Guid(fb4d87e10427d6548923965c80f0304c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa39d4d9996f02e08ed80a1275d1d47') in 0.175100 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005909 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs:569)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.114 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3226 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 215.3 MB.
-System memory in use after: 215.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4085.
-Total: 3.616500 ms (FindLiveObjects: 0.393100 ms CreateObjectMapping: 0.188600 ms MarkObjects: 2.904500 ms  DeleteObjects: 0.128500 ms)
-
+Received Import Request.
+  Time since last request: 3128.775660 seconds.
+  path: Assets/Components/Level Design/skyline background'.jpg
+  artifactKey: Guid(20fafbee3fde59647b0049f24ba54116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Components/Level Design/skyline background'.jpg using Guid(20fafbee3fde59647b0049f24ba54116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104579de2b9fbe1535b65ddd70285fd6') in 0.012498 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005666 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs:569)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.146 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3226 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 215.3 MB.
-System memory in use after: 215.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4088.
-Total: 2.703700 ms (FindLiveObjects: 0.279100 ms CreateObjectMapping: 0.144800 ms MarkObjects: 2.174700 ms  DeleteObjects: 0.104300 ms)
-
+Received Import Request.
+  Time since last request: 3.888340 seconds.
+  path: Assets/Components/Level Design/skyline background'.jpg
+  artifactKey: Guid(20fafbee3fde59647b0049f24ba54116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Components/Level Design/skyline background'.jpg using Guid(20fafbee3fde59647b0049f24ba54116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb587cd98d4832c1a1e2c6dee3aacf1') in 0.044555 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
