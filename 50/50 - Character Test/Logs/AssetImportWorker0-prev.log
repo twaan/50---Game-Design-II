@@ -15,11 +15,11 @@ D:/documenti NABA/Anno III/Primo semestre/Game  Design II/Documenti/50---Game-De
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52177
+54381
 Successfully changed project path to: D:/documenti NABA/Anno III/Primo semestre/Game  Design II/Documenti/50---Game-Design-II/50/50 - Character Test
 D:/documenti NABA/Anno III/Primo semestre/Game  Design II/Documenti/50---Game-Design-II/50/50 - Character Test
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 87.09 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 85.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0b11 (ddf8e7a924bd)
 [Subsystems] Discovering subsystems at path D:/UNIty/2021.1.0b11/Editor/Data/Resources/UnitySubsystems
@@ -35,56 +35,158 @@ Initialize mono
 Mono path[0] = 'D:/UNIty/2021.1.0b11/Editor/Data/Managed'
 Mono path[1] = 'D:/UNIty/2021.1.0b11/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/UNIty/2021.1.0b11/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UNIty/2021.1.0b11/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/UNIty/2021.1.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004846 seconds.
+Registered in 0.004378 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 110.86 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 116.82 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.850 seconds
+- Completed reload, in  4.654 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006969 seconds.
+Registered in 0.006420 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.266 seconds
+- Completed reload, in  1.364 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3285 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 130.5 MB.
-System memory in use after: 130.6 MB.
+System memory in use after: 130.7 MB.
 
 Unloading 124 unused Assets to reduce memory usage. Loaded Objects now: 3726.
-Total: 2.731100 ms (FindLiveObjects: 0.239700 ms CreateObjectMapping: 0.155400 ms MarkObjects: 2.061800 ms  DeleteObjects: 0.273100 ms)
+Total: 3.100500 ms (FindLiveObjects: 0.339100 ms CreateObjectMapping: 0.119000 ms MarkObjects: 2.364900 ms  DeleteObjects: 0.276700 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/Power Cell AAA/Prefabs/Power Cell
+  artifactKey: Guid(2415b77f937b1ff4795a393714f7acfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Power Cell AAA/Prefabs/Power Cell using Guid(2415b77f937b1ff4795a393714f7acfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c0b2700de3ac9d1065b7c354dfe1ce') in 0.005623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Power Cell AAA/Prefabs
+  artifactKey: Guid(46e1ecf806275824da71448d9d633194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Power Cell AAA/Prefabs using Guid(46e1ecf806275824da71448d9d633194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd084dbd024ce1d694a1be25dae79b5ae') in 0.002334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Power Cell AAA/Prefabs/Power Cell/Power Cell.prefab
+  artifactKey: Guid(a3e79ff0eb25d504eb74ebd738874f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Power Cell AAA/Prefabs/Power Cell/Power Cell.prefab using Guid(a3e79ff0eb25d504eb74ebd738874f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b6904bfa85452cef4cd78a4a6f97e2') in 0.337926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 306.140352 seconds.
+  path: Assets/Components/Level Design/Deposit.png
+  artifactKey: Guid(99a689dd92ecca54bb5e5b70a170331f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Components/Level Design/Deposit.png using Guid(99a689dd92ecca54bb5e5b70a170331f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ec858be0bc9d7f94afd2d15fe9bb16') in 0.048021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.490912 seconds.
+  path: Assets/Components/Level Design/Deposit.png
+  artifactKey: Guid(99a689dd92ecca54bb5e5b70a170331f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Components/Level Design/Deposit.png using Guid(99a689dd92ecca54bb5e5b70a170331f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4df372a5762d6a2eb98b2fcd3ff8aa6') in 0.059335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.257015 seconds.
+  path: Assets/Components/Level Design/Hangar.png
+  artifactKey: Guid(eacbf3632c71c4a4ea668180f349f8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Components/Level Design/Hangar.png using Guid(eacbf3632c71c4a4ea668180f349f8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6509bb0f1e806c4171d11235eb2057') in 0.010871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.763752 seconds.
+  path: Assets/Components/Level Design/Hangar.png
+  artifactKey: Guid(eacbf3632c71c4a4ea668180f349f8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Components/Level Design/Hangar.png using Guid(eacbf3632c71c4a4ea668180f349f8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3362c562868e3a6c76e95443687a3c0') in 0.054784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.831700 seconds.
+  path: Assets/Components/Level Design/Pipelines.png
+  artifactKey: Guid(03e5ae2adbc8cdc4e9edd5055bcb8305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Components/Level Design/Pipelines.png using Guid(03e5ae2adbc8cdc4e9edd5055bcb8305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e3a94f40e1b880748d488e6fca2855') in 0.010198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.357732 seconds.
+  path: Assets/Components/Level Design/Pipelines.png
+  artifactKey: Guid(03e5ae2adbc8cdc4e9edd5055bcb8305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Components/Level Design/Pipelines.png using Guid(03e5ae2adbc8cdc4e9edd5055bcb8305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce6d5066907b5588508e78698970fb6') in 0.058552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82.190145 seconds.
   path: Assets/Components/Level Design/skylineee.jpg
   artifactKey: Guid(fb4d87e10427d6548923965c80f0304c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Components/Level Design/skylineee.jpg using Guid(fb4d87e10427d6548923965c80f0304c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa39d4d9996f02e08ed80a1275d1d47') in 0.175100 seconds 
+Start importing Assets/Components/Level Design/skylineee.jpg using Guid(fb4d87e10427d6548923965c80f0304c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30eae88d4cec87fe6358556b1bcea218') in 0.025853 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 3128.775660 seconds.
-  path: Assets/Components/Level Design/skyline background'.jpg
-  artifactKey: Guid(20fafbee3fde59647b0049f24ba54116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Components/Level Design/skyline background'.jpg using Guid(20fafbee3fde59647b0049f24ba54116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104579de2b9fbe1535b65ddd70285fd6') in 0.012498 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005626 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs:569)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.499 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3232 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.9 MB.
+System memory in use after: 169.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3843.
+Total: 3.298900 ms (FindLiveObjects: 0.656300 ms CreateObjectMapping: 0.428400 ms MarkObjects: 2.104900 ms  DeleteObjects: 0.107200 ms)
+
 ========================================================================
-Received Import Request.
-  Time since last request: 3.888340 seconds.
-  path: Assets/Components/Level Design/skyline background'.jpg
-  artifactKey: Guid(20fafbee3fde59647b0049f24ba54116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Components/Level Design/skyline background'.jpg using Guid(20fafbee3fde59647b0049f24ba54116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb587cd98d4832c1a1e2c6dee3aacf1') in 0.044555 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005633 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs:569)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.348 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3227 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.7 MB.
+System memory in use after: 168.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3846.
+Total: 4.260300 ms (FindLiveObjects: 0.471500 ms CreateObjectMapping: 0.274900 ms MarkObjects: 3.443300 ms  DeleteObjects: 0.069400 ms)
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

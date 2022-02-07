@@ -334,6 +334,7 @@
 "Assets/levelloader.cs"
 "Assets/MainMenu.cs"
 "Assets/MainMenu2.cs"
+"Assets/RobotSphere/Assets/Scripts/RobotFreeAnim.cs"
 "Assets/SciFi_Door/Script/door.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
