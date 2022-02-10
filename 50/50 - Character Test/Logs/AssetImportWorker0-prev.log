@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.0b11 (ddf8e7a924bd) revision 14547175'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 22000.469; Version 2009; 64bit' Language: 'en' Physical Memory: 16173 MB
+OS: 'Windows 10 Home; OS build 22000.493; Version 2009; 64bit' Language: 'it' Physical Memory: 16173 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ D:/documenti NABA/Anno III/Primo semestre/Game  Design II/Documenti/50---Game-De
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54381
+49944
 Successfully changed project path to: D:/documenti NABA/Anno III/Primo semestre/Game  Design II/Documenti/50---Game-Design-II/50/50 - Character Test
 D:/documenti NABA/Anno III/Primo semestre/Game  Design II/Documenti/50---Game-Design-II/50/50 - Character Test
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 85.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 100.21 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0b11 (ddf8e7a924bd)
 [Subsystems] Discovering subsystems at path D:/UNIty/2021.1.0b11/Editor/Data/Resources/UnitySubsystems
@@ -35,108 +35,102 @@ Initialize mono
 Mono path[0] = 'D:/UNIty/2021.1.0b11/Editor/Data/Managed'
 Mono path[1] = 'D:/UNIty/2021.1.0b11/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/UNIty/2021.1.0b11/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UNIty/2021.1.0b11/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/UNIty/2021.1.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004378 seconds.
+Registered in 0.004391 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 116.82 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 113.18 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.654 seconds
+- Completed reload, in  4.732 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006420 seconds.
+Registered in 0.005648 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.364 seconds
+- Completed reload, in  1.230 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3285 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.5 MB.
-System memory in use after: 130.7 MB.
+Unloading 3288 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.4 MB.
 
-Unloading 124 unused Assets to reduce memory usage. Loaded Objects now: 3726.
-Total: 3.100500 ms (FindLiveObjects: 0.339100 ms CreateObjectMapping: 0.119000 ms MarkObjects: 2.364900 ms  DeleteObjects: 0.276700 ms)
+Unloading 125 unused Assets to reduce memory usage. Loaded Objects now: 3730.
+Total: 2.540200 ms (FindLiveObjects: 0.247400 ms CreateObjectMapping: 0.182400 ms MarkObjects: 1.846200 ms  DeleteObjects: 0.263300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Power Cell AAA/Prefabs/Power Cell
-  artifactKey: Guid(2415b77f937b1ff4795a393714f7acfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Power Cell AAA/Prefabs/Power Cell using Guid(2415b77f937b1ff4795a393714f7acfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c0b2700de3ac9d1065b7c354dfe1ce') in 0.005623 seconds 
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_cloed_Roll_Loop.fbx
+  artifactKey: Guid(a39d150aebfb4ce449f4a4f23709b822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_cloed_Roll_Loop.fbx using Guid(a39d150aebfb4ce449f4a4f23709b822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b772301f174d03acaeb204a68017512') in 0.309625 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Power Cell AAA/Prefabs
-  artifactKey: Guid(46e1ecf806275824da71448d9d633194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Power Cell AAA/Prefabs using Guid(46e1ecf806275824da71448d9d633194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd084dbd024ce1d694a1be25dae79b5ae') in 0.002334 seconds 
+  Time since last request: 0.000281 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_Idle_F1.fbx
+  artifactKey: Guid(1b77d6c7e7fbcb84c883cf63da0a79a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_Idle_F1.fbx using Guid(1b77d6c7e7fbcb84c883cf63da0a79a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34bedba7b6cc3a58d448d61f32b0207') in 0.477064 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Power Cell AAA/Prefabs/Power Cell/Power Cell.prefab
-  artifactKey: Guid(a3e79ff0eb25d504eb74ebd738874f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Power Cell AAA/Prefabs/Power Cell/Power Cell.prefab using Guid(a3e79ff0eb25d504eb74ebd738874f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b6904bfa85452cef4cd78a4a6f97e2') in 0.337926 seconds 
+  Time since last request: 0.000325 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open.fbx
+  artifactKey: Guid(ecb6e102166bfcf47b9206c2f8297fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open.fbx using Guid(ecb6e102166bfcf47b9206c2f8297fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ff45af4f7817f1e93f73d320fe446d') in 0.306793 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 306.140352 seconds.
-  path: Assets/Components/Level Design/Deposit.png
-  artifactKey: Guid(99a689dd92ecca54bb5e5b70a170331f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Components/Level Design/Deposit.png using Guid(99a689dd92ecca54bb5e5b70a170331f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ec858be0bc9d7f94afd2d15fe9bb16') in 0.048021 seconds 
+  Time since last request: 0.000229 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_GoToRoll.fbx
+  artifactKey: Guid(f2fc0388a7c562e4fa0d179ac93423ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_GoToRoll.fbx using Guid(f2fc0388a7c562e4fa0d179ac93423ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbe3efff836c03b3b5d5cdb936a1462') in 0.289555 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.490912 seconds.
-  path: Assets/Components/Level Design/Deposit.png
-  artifactKey: Guid(99a689dd92ecca54bb5e5b70a170331f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Components/Level Design/Deposit.png using Guid(99a689dd92ecca54bb5e5b70a170331f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4df372a5762d6a2eb98b2fcd3ff8aa6') in 0.059335 seconds 
+  Time since last request: 0.000221 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_close.fbx
+  artifactKey: Guid(d7222f7175ac71943b44f3d2f8ae3453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_close.fbx using Guid(d7222f7175ac71943b44f3d2f8ae3453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a862a14d54e6323998e30893e76dd30d') in 0.217692 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.257015 seconds.
-  path: Assets/Components/Level Design/Hangar.png
-  artifactKey: Guid(eacbf3632c71c4a4ea668180f349f8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Components/Level Design/Hangar.png using Guid(eacbf3632c71c4a4ea668180f349f8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6509bb0f1e806c4171d11235eb2057') in 0.010871 seconds 
+  Time since last request: 0.000220 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_Walk_Loop.fbx
+  artifactKey: Guid(757bc78a1e5310740a2eee895c77111c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_Walk_Loop.fbx using Guid(757bc78a1e5310740a2eee895c77111c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbe02f0febfbfde502cb8c479eec209') in 0.200207 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.763752 seconds.
-  path: Assets/Components/Level Design/Hangar.png
-  artifactKey: Guid(eacbf3632c71c4a4ea668180f349f8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Components/Level Design/Hangar.png using Guid(eacbf3632c71c4a4ea668180f349f8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3362c562868e3a6c76e95443687a3c0') in 0.054784 seconds 
+  Time since last request: 0.000231 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_Idle_Loop_S.fbx
+  artifactKey: Guid(52ad55bee0260b64da664da407ed38b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_Idle_Loop_S.fbx using Guid(52ad55bee0260b64da664da407ed38b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1f8bef30c39352dd1b4356fa5ce501') in 0.212596 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.831700 seconds.
-  path: Assets/Components/Level Design/Pipelines.png
-  artifactKey: Guid(03e5ae2adbc8cdc4e9edd5055bcb8305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Components/Level Design/Pipelines.png using Guid(03e5ae2adbc8cdc4e9edd5055bcb8305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e3a94f40e1b880748d488e6fca2855') in 0.010198 seconds 
+  Time since last request: 0.000238 seconds.
+  path: Assets/RobotSphere/Assets/Models/robotSphere.fbx
+  artifactKey: Guid(bff429107601444d59c67940e6ad78c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/robotSphere.fbx using Guid(bff429107601444d59c67940e6ad78c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5d9fdc335cdd7e968a91e88d60dedf') in 0.624288 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.357732 seconds.
-  path: Assets/Components/Level Design/Pipelines.png
-  artifactKey: Guid(03e5ae2adbc8cdc4e9edd5055bcb8305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Components/Level Design/Pipelines.png using Guid(03e5ae2adbc8cdc4e9edd5055bcb8305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce6d5066907b5588508e78698970fb6') in 0.058552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 82.190145 seconds.
-  path: Assets/Components/Level Design/skylineee.jpg
-  artifactKey: Guid(fb4d87e10427d6548923965c80f0304c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Components/Level Design/skylineee.jpg using Guid(fb4d87e10427d6548923965c80f0304c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30eae88d4cec87fe6358556b1bcea218') in 0.025853 seconds 
+  Time since last request: 0.000273 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_closed_StopRoll.fbx
+  artifactKey: Guid(a04d47ebf8b64cc4a94b13a384a37882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_closed_StopRoll.fbx using Guid(a04d47ebf8b64cc4a94b13a384a37882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72bfdd92fe5aad14f4b4e7fe0e22f41') in 0.208292 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005626 seconds.
+Registered in 0.005225 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -148,25 +142,85 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.499 seconds
+- Completed reload, in  1.034 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3231 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.4 MB.
+System memory in use after: 132.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3744.
+Total: 2.312400 ms (FindLiveObjects: 0.210100 ms CreateObjectMapping: 0.110600 ms MarkObjects: 1.941800 ms  DeleteObjects: 0.048300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1654.738779 seconds.
+  path: Assets/Components/Level Design/Rust.png
+  artifactKey: Guid(fc51280598c7c8f41a8354719df959af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Components/Level Design/Rust.png using Guid(fc51280598c7c8f41a8354719df959af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67aa41ab06fae3e8c952536efe9ce90') in 0.075579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.932511 seconds.
+  path: Assets/Components/Level Design/Rust.png
+  artifactKey: Guid(fc51280598c7c8f41a8354719df959af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Components/Level Design/Rust.png using Guid(fc51280598c7c8f41a8354719df959af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62fc12a050c8ebf9f028c01ae9261e8') in 0.048792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.843997 seconds.
+  path: Assets/Components/Level Design/Rust 2.png
+  artifactKey: Guid(033cba67a930a60458b87af029b7e7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Components/Level Design/Rust 2.png using Guid(033cba67a930a60458b87af029b7e7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7c9b3e7c92abf5a575c9de1a394b39') in 0.009369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.504463 seconds.
+  path: Assets/Components/Level Design/Rust 2.png
+  artifactKey: Guid(033cba67a930a60458b87af029b7e7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Components/Level Design/Rust 2.png using Guid(033cba67a930a60458b87af029b7e7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d9058c881435904f6b081b3568f132') in 0.043149 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005252 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs:569)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.014 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3232 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.9 MB.
-System memory in use after: 169.1 MB.
+System memory in use before: 136.7 MB.
+System memory in use after: 136.9 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3843.
-Total: 3.298900 ms (FindLiveObjects: 0.656300 ms CreateObjectMapping: 0.428400 ms MarkObjects: 2.104900 ms  DeleteObjects: 0.107200 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3812.
+Total: 2.502400 ms (FindLiveObjects: 0.474100 ms CreateObjectMapping: 0.144500 ms MarkObjects: 1.814200 ms  DeleteObjects: 0.068900 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 964.479993 seconds.
+  path: Assets/Components/50 - Idle.controller
+  artifactKey: Guid(4326ef5f01780bd4f8ec906bb4df9d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Components/50 - Idle.controller using Guid(4326ef5f01780bd4f8ec906bb4df9d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0549ee4c27620f75c88722fd9dce4697') in 0.019047 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005633 seconds.
+Registered in 0.005511 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.54 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -178,15 +232,75 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.348 seconds
+- Completed reload, in  1.047 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.7 MB.
-System memory in use after: 168.9 MB.
+Unloading 3230 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.6 MB.
+System memory in use after: 136.8 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3846.
-Total: 4.260300 ms (FindLiveObjects: 0.471500 ms CreateObjectMapping: 0.274900 ms MarkObjects: 3.443300 ms  DeleteObjects: 0.069400 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3815.
+Total: 2.600100 ms (FindLiveObjects: 0.259800 ms CreateObjectMapping: 0.142900 ms MarkObjects: 2.149700 ms  DeleteObjects: 0.046900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005241 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs:569)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.032 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3230 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.7 MB.
+System memory in use after: 136.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3818.
+Total: 2.734300 ms (FindLiveObjects: 0.284500 ms CreateObjectMapping: 0.176600 ms MarkObjects: 2.226800 ms  DeleteObjects: 0.045400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005199 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs:569)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3230 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.7 MB.
+System memory in use after: 136.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3821.
+Total: 2.569900 ms (FindLiveObjects: 0.207400 ms CreateObjectMapping: 0.108700 ms MarkObjects: 2.210200 ms  DeleteObjects: 0.042700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
