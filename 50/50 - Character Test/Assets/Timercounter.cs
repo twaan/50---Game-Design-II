@@ -7,6 +7,7 @@ public class Timercounter : MonoBehaviour
 {
     public float timeValue = 300;
     public Text countdownText;
+    public bool Death = false;
 
     // Update is called once per frame
     void Update()
@@ -34,7 +35,11 @@ public class Timercounter : MonoBehaviour
         float seconds = Mathf.FloorToInt(timeToDisplay % 60);
 
         countdownText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
-    }
 
+        if (timeToDisplay <= 0f)
+        Death = true;
+
+
+    }
 
 }
