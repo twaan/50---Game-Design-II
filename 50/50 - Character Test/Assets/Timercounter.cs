@@ -8,6 +8,13 @@ public class Timercounter : MonoBehaviour
     public float timeValue = 300;
     public Text countdownText;
     public bool Death = false;
+    Animator Child;
+
+    // Use this for inizialization
+    void Start ()
+    {
+        Child = GetComponent<Animator>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -37,8 +44,10 @@ public class Timercounter : MonoBehaviour
         countdownText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
 
         if (timeToDisplay <= 0f)
-        Death = true;
-
+        {
+            Death = true;
+            Child.SetTrigger("Death");
+        }
 
     }
 
