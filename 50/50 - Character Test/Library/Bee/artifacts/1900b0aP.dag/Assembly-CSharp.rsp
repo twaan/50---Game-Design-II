@@ -97,9 +97,9 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"D:/documenti NABA/Anno III/Primo semestre/Game  Design II/Documenti/50/50 - Character Test/Library/PackageCache/com.unity.cinemachine@2.7.9/Runtime/ThirdParty/clipper_library.dll"
--r:"D:/documenti NABA/Anno III/Primo semestre/Game  Design II/Documenti/50/50 - Character Test/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Core/Dependencies/MiscUtil/MiscUtil.dll"
--r:"D:/documenti NABA/Anno III/Primo semestre/Game  Design II/Documenti/50/50 - Character Test/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Flow/Dependencies/NCalc/Antlr3.Runtime.dll"
+-r:"D:/documenti NABA/Anno III/Primo semestre/Game  Design II/Documenti/50---Game-Design-II/50/50 - Character Test/Library/PackageCache/com.unity.cinemachine@2.7.9/Runtime/ThirdParty/clipper_library.dll"
+-r:"D:/documenti NABA/Anno III/Primo semestre/Game  Design II/Documenti/50---Game-Design-II/50/50 - Character Test/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Core/Dependencies/MiscUtil/MiscUtil.dll"
+-r:"D:/documenti NABA/Anno III/Primo semestre/Game  Design II/Documenti/50---Game-Design-II/50/50 - Character Test/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Flow/Dependencies/NCalc/Antlr3.Runtime.dll"
 -r:"D:/UNIty/2021.1.0b11/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
 -r:"D:/UNIty/2021.1.0b11/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"D:/UNIty/2021.1.0b11/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
@@ -288,12 +288,16 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
+"Assets/CameraYAxisLock.cs"
 "Assets/Components/Countdown.cs"
 "Assets/Countdown.cs"
+"Assets/Cyberpunk Car/Models/SimpleCameraController.cs"
 "Assets/Intro.cs"
 "Assets/levelloader.cs"
 "Assets/MainMenu.cs"
 "Assets/MainMenu2.cs"
+"Assets/RobotSphere/Assets/Scripts/RobotFreeAnim.cs"
+"Assets/SciFi_Door/Script/door.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
@@ -328,6 +332,9 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/Timercount.cs"
+"Assets/Timercounter.cs"
+"Assets/timertest.cs"
 -langversion:8.0
 
 /deterministic
