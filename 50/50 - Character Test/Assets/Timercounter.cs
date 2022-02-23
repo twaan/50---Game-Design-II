@@ -7,7 +7,7 @@ public class Timercounter : MonoBehaviour
 {
     public float timeValue = 300;
     public Text countdownText;
-    public bool Death = false;
+    public bool Death;
     Animator Child;
 
     // Use this for inizialization
@@ -46,7 +46,7 @@ public class Timercounter : MonoBehaviour
         if (timeToDisplay <= 0f)
         {
             Death = true;
-            Child.SetTrigger("Death");
+            Child.SetBool("Death", true);
         }
 
     }
