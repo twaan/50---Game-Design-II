@@ -1,21 +1,26 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
-public class CameraYAxisLock : MonoBehaviour
+/// <summary>
+/// An add-on module for Cinemachine Virtual Camera that locks the camera's Z co-ordinate
+/// </summary>
+[ExecuteInEditMode]
+[SaveDuringPlay]
+[AddComponentMenu("")] // Hide in menu
+public class LockCameraY : CinemachineExtension
 {
-    public Transform FollowObject;
+    [Tooltip("Lock the camera's Y position to this value")]
+    public float m_YPosition = 10;
 
-    // Use this for initialization
-    void Start()
+    protected override void PostPipelineStageCallback(
+        CinemachineVirtualCameraBase vcam,
+        CinemachineCore.Stage stage, ref CameraState state, float deltaTime)
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        Vector3 pos = new Vector3(FollowObject.position.x, transform.position.y, transform.position.z);
-        transform.position = pos;
+        if (enabled && stage == CinemachineCore.Stage.Body)
+        {
+            var pos = state.RawPosition;
+            pos.y = m_YPosition;
+            state.RawPosition = pos;
+        }
     }
 }
